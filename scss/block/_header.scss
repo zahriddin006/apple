@@ -1,0 +1,18 @@
+.header{
+  &__header-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 60px;
+  }
+  .nav-and-form{
+    display: flex;
+    input{
+      width: 245px;
+      border: none;
+      border-bottom: 1px solid #888888;
+      margin-left: 40px;
+      outline: none;
+    }
+  }
+}

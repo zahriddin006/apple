@@ -1,0 +1,40 @@
+.trio{
+  padding-top: 50px;
+  &__box{
+    width: 33%;
+    float: left;
+  }
+  &__more{
+    position: relative;
+    font-size: 16px;
+    font-weight: bold;
+    color:rgb(255, 51, 0);
+    margin-left: 60px;
+    text-transform: uppercase;
+    span{
+      position: absolute;
+      width: 20px;
+      height: 5px;
+      margin-left: -50px;
+    }
+  }
+  
+  &__trio-title{
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-bottom: 50px;
+  }
+  &__trio-text{
+    width: 320px;
+    font-size: 18px;
+    line-height: 1.4;
+  }
+  &__three-dot{
+    font-size: 32px;
+    color: #888;
+  }
+}
+
+.clr{
+  clear: both;
+}

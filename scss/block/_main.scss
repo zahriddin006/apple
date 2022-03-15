@@ -1,0 +1,19 @@
+.main{
+  padding-top: 60px;
+  &__main-content{
+    width: 50%;
+    padding-top: 200px;
+    float: left;
+  }
+  &__side-img{
+    img{
+      width: 50%;
+      background-repeat: no-repeat;
+      float: left;
+    }
+  }
+  &__title{
+    width: 300px;
+    padding-bottom: 40px;
+  }
+}
