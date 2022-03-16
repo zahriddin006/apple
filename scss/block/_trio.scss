@@ -9,16 +9,24 @@
     font-size: 16px;
     font-weight: bold;
     color:rgb(255, 51, 0);
-    margin-left: 60px;
+    margin-left: 0px;
     text-transform: uppercase;
-    span{
-      position: absolute;
-      width: 20px;
-      height: 5px;
-      margin-left: -50px;
-    }
   }
-  
+  &__more::before{
+    content: "";
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 5px;
+    margin-right: 10px;
+    background-color: rgb(255, 51, 0);
+    margin-bottom: 2px;
+    transition: all 200ms ease;
+  }
+  &__more:hover::before{
+    width: 70px;
+    height: 5px;
+  }
   &__trio-title{
     text-transform: uppercase;
     font-size: 20px;

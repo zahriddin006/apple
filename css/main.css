@@ -435,15 +435,26 @@ a {
   font-size: 16px;
   font-weight: bold;
   color: #ff3300;
-  margin-left: 60px;
+  margin-left: 0px;
   text-transform: uppercase;
 }
 
-.trio__more span {
-  position: absolute;
-  width: 20px;
+.trio__more::before {
+  content: "";
+  position: relative;
+  display: inline-block;
+  width: 50px;
   height: 5px;
-  margin-left: -50px;
+  margin-right: 10px;
+  background-color: #ff3300;
+  margin-bottom: 2px;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+
+.trio__more:hover::before {
+  width: 70px;
+  height: 5px;
 }
 
 .trio__trio-title {
@@ -530,14 +541,28 @@ a {
   margin-left: 20px;
 }
 
+.navbar__item {
+  border-bottom: 2px solid #fff;
+  padding-bottom: 6px;
+  cursor: pointer;
+}
+
+.navbar__item:hover {
+  border-bottom: 2px solid #ddd;
+}
+
 .btn {
-  width: 240px;
-  height: 50px;
-  background-color: #ff3300;
+  display: inline-block;
+  background-color: #ea5851;
   color: #fff;
   padding: 10px 20px;
   border: none;
   outline: none;
   font-size: 18px;
   text-transform: uppercase;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #d65151;
 }

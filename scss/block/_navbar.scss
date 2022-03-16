@@ -5,4 +5,12 @@
   &__item ~ &__item{
     margin-left: 20px;
   }
+  &__item{
+    border-bottom: 2px solid #fff;
+    padding-bottom: 6px;
+    cursor: pointer;
+  }
+  &__item:hover{
+    border-bottom: 2px solid #ddd;
+  }
 }
